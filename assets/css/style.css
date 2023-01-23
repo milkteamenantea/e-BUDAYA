@@ -1,0 +1,1496 @@
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+    background-image: url(assets/img/batik.jpg);
+}
+
+/* Header */
+header {
+    background-color: #ffe9f0;
+    margin-right: -15px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: 'Courier Prime';
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.navbar-brand, .nav-link {
+    color: #FF0000 !important;
+    text-shadow: 1px 2px 2px rgb(236, 145, 145);
+}
+
+.nav-link {
+    font-family: 'Cooper', monospace;
+    margin-right: 12px;
+}
+
+
+/* Slides */
+.slides {
+    margin-top: 30px;
+    margin-left: 18px;
+}
+
+.full-width {
+    width: 100%;
+    height: auto;
+}
+
+
+/* BOX NEWS */
+.artikel {
+    background-color: white;
+}
+
+.box-news {
+    width: 230px;
+    padding: 10px;
+    border: 1px solid #d284ff;
+    border-radius: 5px;
+    float: left;
+    margin: 27px;
+}
+
+.cover {
+    width: 209px;
+}
+
+.box-news .description .title {
+    color: #7100A8;
+    font-family: 'Calibri', monospace;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.box-news .description .title a{
+    color: #7100A8;
+}
+
+.box-news .description .title a:hover{
+    color: #7100A8;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 35px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
+/* Detail Artikel */
+.detail {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.detail .title {
+    color: #6300B8;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detail .desc p {
+    color: #9C62DE;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
+/* Quotes */
+.quote {
+    margin-top: 80px;
+}
+
+.quote h4 {
+    color: #6714C5;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.quote figure img {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.quote figure h5 {
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote figure p {
+    color: #acacac;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -5px !important;
+}
+
+
+/* SEJARAH */
+/* Judul Sejarah */
+
+.sejarahindo .display-4 {
+    color: #6300B8;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 27px;
+}
+
+.sejarahindo img {
+    width: 80%;
+}
+
+/* Deskripsi Sejarah */
+.desc-sejarah p {
+    color: #9C62DE;
+    font-family: 'Calibri';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 45px;
+    padding: 20px;
+}
+
+
+/* PROVINSI */
+/* Judul Provinsi */
+.provindo .display-4 {
+    color: #6300B8;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    font-size: 30px;
+}
+
+.provindo img {
+    width: 80%;
+}
+
+/* Deskripsi Provinsi */
+.desc-prov {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.desc-prov p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 9px;
+}
+
+
+/* Pembagian Zona Waktu Provinsi Indonesia */
+/* Zona Waktu Pertama */
+.zonawaktu1 {
+    margin-top: 60px;
+}
+
+.zonawaktu1 h5 {
+    color: #A552EC;
+    font-family: 'Arial';
+    font-size: 16px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.zonawaktu1 img {
+    width: 60px;
+    margin: 7px;
+    padding: 5px;
+}
+
+/* Zona Waktu Kedua */
+.zonawaktu2 {
+    margin-top: 30px;
+}
+
+.zonawaktu2 h5 {
+    color: #A552EC;
+    font-family: 'Arial';
+    font-size: 15px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.zonawaktu2 img {
+    width: 60px;
+    margin: 7px;
+    padding: 5px;
+}
+
+/* Zona Waktu Ketiga */
+.zonawaktu3 {
+    margin-top: 30px;
+}
+
+.zonawaktu3 h5 {
+    color: #A552EC;
+    font-family: 'Arial';
+    font-size: 16px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.zonawaktu3 img {
+    width: 60px;
+    margin: 7px;
+    padding: 5px;
+}
+
+
+/* PROVINSI JAWA BARAT */
+.provjabar .display-4 {
+    color: #6300B8;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    font-size: 25px;
+}
+
+.provjabar img {
+    width: 100%;
+    margin-right: -15px;
+}
+
+/* Deskripsi Provinsi Jabar */
+.desc-jabar {
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.desc-jabar p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 8px;
+    font-weight: 1000;
+    padding: 5px;
+    margin-top: 9px;
+}
+
+
+/* Rumah Adat Jabar */
+.rmhjabar {
+    margin-top: 50px;
+}
+
+.rmhjabar h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rmhjabar img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.rmhjabar p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Pakaian Adat Jabar */
+.pakaianjabar {
+    margin-top: 50px;
+}
+
+.pakaianjabar h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pakaianjabar img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.pakaianjabar p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* Tarian Tradisional Jabar*/
+.tarijabar {
+    margin-top: 50px;
+}
+
+.tarijabar h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tarijabar img {
+    width: 440px;
+    border-radius: 20px;
+}
+
+.tarijabar p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Senjata Tradisional Jabar */
+.senjatajabar {
+    margin-top: 50px;
+}
+
+.senjatajabar h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.senjatajabar img {
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.senjatajabar p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Alat Musik Tradisional Jabar */
+.alatmskjabar {
+    margin-top: 50px;
+}
+
+.alatmskjabar h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.alatmskjabar img {
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.alatmskjabar p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Makanan Tradisional Jabar */
+.mknjabar {
+    margin-top: 50px;
+}
+
+.mknjabar h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mknjabar img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.mknjabar p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+/* PROVINSI SULAWESI SELATAN */
+.provsulsel .display-4 {
+    color: #6300B8;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+.provsulsel img {
+    width: 90%;
+    margin-left: 15px;
+}
+
+/* Deskripsi Provinsi Sulsel */
+.desc-sulsel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -10px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.desc-sulsel p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 7px;
+    font-weight: bold;
+    padding: 7px;
+    margin-top: 7px;
+}
+
+
+/* Rumah Adat Sulsel */
+.rmhsulsel {
+    margin-top: 50px;
+}
+
+.rmhsulsel h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rmhsulsel img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.rmhsulsel p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Pakaian Adat Sulsel */
+.pakaiansulsel {
+    margin-top: 50px;
+}
+
+.pakaiansulsel h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pakaiansulsel img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.pakaiansulsel p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Tarian Tradisional Sulsel*/
+.tarisulsel {
+    margin-top: 50px;
+}
+
+.tarisulsel h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tarisulsel img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.tarisulsel p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Senjata Tradisional Sulsel */
+.senjatasulsel {
+    margin-top: 50px;
+}
+
+.senjatasulsel h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.senjatasulsel img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.senjatasulsel p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Alat Musik Tradisional Sulsel */
+.alatmsksulsel {
+    margin-top: 90px;
+}
+
+.alatmsksulsel h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.alatmsksulsel img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.alatmsksulsel p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Makanan Tradisional Sulsel */
+.mknsulsel {
+    margin-top: 50px;
+}
+
+.mknsulsel h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mknsulsel img {
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.mknsulsel p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+/* PROVINSI PAPUA */
+.provpapua .display-4 {
+    color: #6300B8;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    font-size: 35px;
+}
+
+.provpapua img {
+    width: 100%;
+    margin-left: 15px;
+}
+
+/* Deskripsi Provinsi Sulsel */
+.desc-papua {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -10px;
+    margin-left: 15px;
+    background-color: white;
+}
+
+.desc-papua p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 9px;
+    font-weight: 1000;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+
+/* Rumah Adat Papua */
+.rmhpapua {
+    margin-top: 50px;
+}
+
+.rmhpapua h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rmhpapua img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.rmhpapua p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+/* Pakaian Adat Papua */
+.pakaianpapua {
+    margin-top: 50px;
+}
+
+.pakaianpapua h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pakaianpapua img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.pakaianpapua p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Tarian Tradisional Papua*/
+.taripapua {
+    margin-top: 50px;
+}
+
+.taripapua h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.taripapua img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.taripapua p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Senjata Tradisional Papua */
+.senjatapapua {
+    margin-top: 50px;
+}
+
+.senjatapapua h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.senjatapapua img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.senjatapapua p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Alat Musik Tradisional Papua */
+.alatmskpapua {
+    margin-top: 50px;
+}
+
+.alatmskpapua h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.alatmskpapua img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.alatmskpapua p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* Makanan Tradisional Papua */
+.mknpapua {
+    margin-top: 50px;
+}
+
+.mknpapua h5 {
+    color: #6300B8;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mknpapua img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.mknpapua p {
+    color: #A924F5;
+    font-family: 'Calibri';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #f5d9e2;
+    color: #520074;
+    font-family: 'Calibri';
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 100px;
+    margin-right: -15px;
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 35px;
+        margin-left: -30px;
+    }
+
+    .nav-link {
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #FF518C;
+        width: 30%;
+        margin: auto;
+        padding-bottom: 2px;
+        margin-bottom: -5px;
+    }
+
+    .slides {
+        margin-top: 25px;
+    }
+
+    .detail .title {
+        font-size: 30px;
+    }
+
+    .quote {
+        margin-top: 130px;
+    }
+
+    .quote h4 {
+        font-size: 25px;
+    }
+
+    .sejarahindo .display-4 {
+        font-size: 40px;
+    }
+
+    .desc-sejarah p {
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 200px;
+    }
+
+    .provindo .display-4 {
+        font-size: 45px;
+    }
+    
+    .provindo img {
+        width: 100%;
+    }
+    
+    .desc-prov p {
+        font-size: 14px;
+        font-weight: 1000;
+        padding: 15px;
+        margin-top: 8px;
+        margin-left: 0%;
+    }
+
+    .zonawaktu1 {
+        margin-top: 100px;
+    }
+    
+    .zonawaktu1 h5 {
+        font-size: 25px;
+    }
+
+    .zonawaktu1 img {
+        width: 80px;
+        margin: 7px;
+        padding: 5px;
+    }
+
+    .zonawaktu2 {
+        margin-top: 60px;
+    }
+    
+    .zonawaktu2 h5 {
+        font-size: 25px;
+    }
+    
+    .zonawaktu2 img {
+        width: 80px;
+        margin: 7px;
+        padding: 5px;
+    }
+
+    .zonawaktu3 {
+        margin-top: 70px;
+    }
+    
+    .zonawaktu3 h5 {
+        font-size: 25px;
+    }
+    
+    .zonawaktu3 img {
+        width: 80px;
+        margin: 7px;
+        padding: 5px;
+    }
+
+    .provjabar .display-4 {
+        font-size: 45px;
+    }
+    
+    .provjabar img {
+        margin-right: -15px;
+    }
+
+    .desc-jabar {
+        margin-top: -60px;
+    }
+    
+    .desc-jabar p {
+        font-size: 15px;
+        padding: 15px;
+        margin-top: 8px;
+    }
+
+    .rmhjabar {
+        margin-top: 90px;
+    }
+    
+    .rmhjabar h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .rmhjabar img {
+        width: 440px;
+        margin-left: 0%;
+    }
+    
+    .rmhjabar p {
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 100px;
+        margin-left: 0%;
+    }
+
+    .pakaianjabar {
+        margin-top: 90px;
+    }
+    
+    .pakaianjabar h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .pakaianjabar img {
+        width: 200px;
+        margin-left: 0%;
+    }
+    
+    .pakaianjabar p {
+        font-size: 22px;
+        margin-top: 80px;
+        margin-left: 0%;
+    }
+
+    .tarijabar {
+        margin-top: 90px;
+    }
+    
+    .tarijabar h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .tarijabar img {
+        width: 440px;
+    }
+    
+    .tarijabar p {
+        font-size: 22px;
+        margin-top: 150px;
+        margin-left: 0%;
+    }
+
+    .senjatajabar {
+        margin-top: 90px;
+    }
+    
+    .senjatajabar h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .senjatajabar img {
+        width: 300px;
+        margin-left: 0%;
+    }
+    
+    .senjatajabar p {
+        font-size: 22px;
+        margin-top: 90px;
+        margin-left: 0%;
+    }
+
+    .alatmskjabar {
+        margin-top: 90px;
+    }
+    
+    .alatmskjabar h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .alatmskjabar img {
+        width: 300px;
+        margin-left: 0%;
+    }
+    
+    .alatmskjabar p {
+        font-size: 20px;
+        margin-top: 90px;
+        margin-left: 0%;
+    }
+
+    .mknjabar {
+        margin-top: 90px;
+    }
+    
+    .mknjabar h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .mknjabar img {
+        width: 400px;
+        margin-left: 0%;
+    }
+    
+    .mknjabar p {
+        font-size: 23px;
+        text-align: justify;
+        margin-top: 130px;
+        margin-left: 0%;
+    }
+
+    .provsulsel .display-4 {
+        font-size: 45px;
+        margin-left: 0%;
+    }
+    
+    .provsulsel img {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .desc-sulsel {
+        margin-top: -60px;
+        margin-left: 0%;
+    }
+    
+    .desc-sulsel p {
+        font-size: 15px;
+        font-weight: 1000;
+        padding: 15px;
+        margin-top: 8px;
+    }
+
+    .rmhsulsel {
+        margin-top: 90px;
+    }
+    
+    .rmhsulsel h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .rmhsulsel img {
+        width: 450px;
+        border-radius: 20px;
+        margin-left: 0%;
+    }
+    
+    .rmhsulsel p {
+        font-size: 22px;
+        margin-top: 100px;
+        margin-left: 0%;
+    }
+
+    .pakaiansulsel {
+        margin-top: 90px;
+    }
+    
+    .pakaiansulsel h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .pakaiansulsel img {
+        width: 450px;
+        margin-left: 0%;
+    }
+    
+    .pakaiansulsel p {
+        font-size: 22px;
+        margin-top: 80px;
+        margin-left: 0%;
+    }
+
+    .tarisulsel {
+        margin-top: 90px;
+    }
+    
+    .tarisulsel h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .tarisulsel img {
+        width: 440px;
+        margin-left: 0%;
+    }
+    
+    .tarisulsel p {
+        font-size: 22px;
+        margin-top: 130px;
+        margin-left: 0%;
+    }
+
+    .senjatasulsel {
+        margin-top: 90px;
+    }
+    
+    .senjatasulsel h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .senjatasulsel img {
+        width: 450px;
+        margin-top: 100px;
+        margin-left: 0%;
+    }
+    
+    .senjatasulsel p {
+        font-size: 22px;
+        margin-top: 90px;
+        margin-left: 0%;
+    }
+
+    .alatmsksulsel {
+        margin-top: 90px;
+    }
+    
+    .alatmsksulsel h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .alatmsksulsel img {
+        width: 450px;
+        margin-left: 0%;
+    }
+    
+    .alatmsksulsel p {
+        font-size: 22px;
+        margin-top: 150px;
+        margin-left: 0%;
+    }
+
+    .mknsulsel {
+        margin-top: 90px;
+    }
+    
+    .mknsulsel h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .mknsulsel img {
+        width: 450px;
+        margin-left: 0%;
+    }
+    
+    .mknsulsel p {
+        font-size: 23px;
+        margin-top: 130px;
+        margin-left: 0%;
+    }
+
+    .provpapua .display-4 {
+        font-size: 45px;
+    }
+
+    .provpapua img {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .desc-papua {
+        margin-top: -60px;
+        margin-left: 0%;
+    }
+    
+    .desc-papua p {
+        font-size: 15px;
+        font-weight: 1000;
+        padding: 15px;
+        margin-top: 8px;
+    }
+
+    .rmhpapua {
+        margin-top: 90px;
+    }
+    
+    .rmhpapua h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .rmhpapua img {
+        width: 450px;
+        margin-top: 90px;
+        margin-left: 0%;
+    }
+    
+    .rmhpapua p {
+        font-size: 22px;
+        margin-top: 100px;
+        margin-left: 0%;
+    }
+
+    .pakaianpapua {
+        margin-top: 90px;
+    }
+    
+    .pakaianpapua h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .pakaianpapua img {
+        width: 450px;
+        margin-top: 95px;
+        margin-left: 0%;
+    }
+    
+    .pakaianpapua p {
+        font-size: 22px;
+        margin-top: 80px;
+        margin-left: 0%;
+    }
+
+    .taripapua {
+        margin-top: 90px;
+    }
+    
+    .taripapua h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .taripapua img {
+        width: 440px;
+        margin-left: 0%;
+    }
+    
+    .taripapua p {
+        font-size: 22px;
+        margin-top: 130px;
+        margin-left: 0%;
+    }
+
+    .senjatapapua {
+        margin-top: 90px;
+    }
+    
+    .senjatapapua h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .senjatapapua img {
+        width: 450px;
+        margin-left: 0%;
+    }
+    
+    .senjatapapua p {
+        font-size: 22px;
+        margin-top: 90px;
+        margin-left: 0%;
+    }
+
+    .alatmskpapua {
+        margin-top: 90px;
+    }
+    
+    .alatmskpapua h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .alatmskpapua img {
+        width: 450px;
+        margin-left: 0%;
+    }
+    
+    .alatmskpapua p {
+        font-size: 22px;
+        margin-top: 130px;
+        margin-left: 0%;
+    }
+
+    .mknpapua {
+        margin-top: 90px;
+    }
+    
+    .mknpapua h5 {
+        font-size: 40px;
+        text-align: left;
+    }
+    
+    .mknpapua img {
+        width: 450px;
+        margin-left: 0%;
+    }
+    
+    .mknpapua p {
+        font-size: 23px;
+        margin-top: 130px;
+        margin-left: 0%;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
