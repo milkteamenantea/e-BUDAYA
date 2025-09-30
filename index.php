@@ -4,12 +4,6 @@
   $data = mysqli_fetch_assoc($query);
 ?>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Budaya Indonesia</title>
-  </head>
-  <body>
     <?php
       include "header.php";
     ?>
@@ -68,5 +62,3 @@
     <?php
       include "footer.php";
     ?>
-  </body>
-</html>
